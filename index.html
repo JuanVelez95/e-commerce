@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Commerce</title>
+    <title>Tacake | E-Commerce</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,21 +14,30 @@
 
         <!-- NAV -->
         <nav class="nav">
-            <div class="nav__logo">
-                <a href="#">
+
+            <!-- NAV LEFT -->
+            <div class="nav__left">
+                <a class="nav__logo" href="#">
                     <img src="assets/img/logotipo.svg" alt="">
                 </a>
             </div>
-            <div class="nav__items">
-                <div class="nav__search">
-                    <input type="text" id="search" maxlength="130" placeholder="Buscar...">
-                    <button class="nav__button">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                </div>
-                <div class="nav__cart">
-                    <a href="#" class="nav__link"><i class="fa-solid fa-cart-shopping"></i></a>
-                </div> 
+
+            <!-- NAV RIGHT -->
+            <div class="nav__right">
+                <a href="#" class="nav__item">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#" class="nav__item">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+
+            <!-- NAV FORM -->
+            <form action="" class="nav__form">
+                <input type="text" class="nav_input" id="navInput" placeholder="Buscar producto" required>
+                <input type="submit" value="">
+            </form>
+
             </div>
         </nav>
     </header>
