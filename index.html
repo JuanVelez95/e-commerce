@@ -4,158 +4,169 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Commerce</title>
-    <link rel="stylesheet" href="style.css">
+
+    <title>Tacake | E-Commerce</title>
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- FONTAWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- SECTION SHOP -->
-    <section class="shop">
+    <main>
 
-        <h2>Shop <span class="text-ghost">Products</span></h2>
+        <!-- SECTION SHOP -->
+        <section class="shop">
 
-        <!-- SHOP FILTERS -->
-        <div class="filters">
-            <button class="badge">Comidas</button>
-            <button class="badge">Bebidas</button>
-            <button class="badge">Snacks</button>
-        </div>
+            <h2>Shop <span class="text-ghost">Products</span></h2>
 
-        <!-- SHOP GRID CARDS -->
-        <div class="shop-grid">
-
-            <!-- CARD #1 -->
-            <div class="card">
-                <figure class="card__figure">
-                    <img src="assets/img/comidas/chicken-nuggete.jpg" alt="" class="card__img">
-                </figure>
-                <div class="card__body">
-                    <h3 class="card__name">Chicken Nuggete</h3>
-                    <p class="card__price">10 $</p>
-                </div>
+            <!-- SHOP FILTERS -->
+            <div class="shop__filters">
+                <button class="btn-filter">Comidas</button>
+                <button class="btn-filter">Bebidas</button>
+                <button class="btn-filter">Snacks</button>
             </div>
 
-            <!-- CARD #2 -->
-            <div class="card">
-                <figure class="card__figure">
-                    <img src="assets/img/bebidas/milk.jpg" alt="" class="card__img">
-                </figure>
-                <div class="card__body">
-                    <h3 class="card__name">Milk</h3>
-                    <p class="card__price">3 $</p>
-                </div>
-            </div>
+            <!-- SHOP GRID CARDS -->
+            <div class="shop__grid">
 
-            <!-- CARD #3 -->
-            <div class="card">
-                <figure class="card__figure">
-                    <img src="assets/img/postres/chips.jpg" alt="" class="card__img">
-                </figure>
-                <div class="card__body">
-                    <h3 class="card__name">Chips</h3>
-                    <p class="card__price">1.50 $</p>
+                <!-- CARD #1 -->
+                <div class="card">
+                    <figure class="card__figure">
+                        <img src="assets/img/comidas/chicken-nuggete.jpg" alt="" class="card__img">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="card__name">Chicken Nuggete</h3>
+                        <p class="card__price">10 $</p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- CARD #4 -->
-            <div class="card">
-                <figure class="card__figure">
-                    <img src="assets/img/comidas/burguer.png" alt="" class="card__img">
-                </figure>
-                <div class="card__body">
-                    <h3 class="card__name">Burguer</h3>
-                    <p class="card__price">5 $</p>
+                <!-- CARD #2 -->
+                <div class="card">
+                    <figure class="card__figure">
+                        <img src="assets/img/bebidas/milk.jpg" alt="" class="card__img">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="card__name">Milk</h3>
+                        <p class="card__price">3 $</p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- CARD #5 -->
-            <div class="card">
-                <figure class="card__figure">
-                    <img src="assets/img/bebidas/lemonade.jpg" alt="" class="card__img">
-                </figure>
-                <div class="card__body">
-                    <h3 class="card__name">Lemonade</h3>
-                    <p class="card__price">2.50 $</p>
+                <!-- CARD #3 -->
+                <div class="card">
+                    <figure class="card__figure">
+                        <img src="assets/img/postres/chips.jpg" alt="" class="card__img">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="card__name">Chips</h3>
+                        <p class="card__price">1.50 $</p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- CARD #6 -->
-            <div class="card">
-                <figure class="card__figure">
-                    <img src="assets/img/postres/chocolate.png" alt="" class="card__img">
-                </figure>
-                <div class="card__body">
-                    <h3 class="card__name">Chocolate</h3>
-                    <p class="card__price">4 $</p>
+                <!-- CARD #4 -->
+                <div class="card">
+                    <figure class="card__figure">
+                        <img src="assets/img/comidas/burguer.png" alt="" class="card__img">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="card__name">Burguer</h3>
+                        <p class="card__price">5 $</p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- CARD #7 -->
-            <div class="card">
-                <figure class="card__figure">
-                    <img src="assets/img/bebidas/coffe.jpg" alt="" class="card__img">
-                </figure>
-                <div class="card__body">
-                    <h3 class="card__name">Coffe</h3>
-                    <p class="card__price">3.25 $</p>
+                <!-- CARD #5 -->
+                <div class="card">
+                    <figure class="card__figure">
+                        <img src="assets/img/bebidas/lemonade.jpg" alt="" class="card__img">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="card__name">Lemonade</h3>
+                        <p class="card__price">2.50 $</p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- CARD #8 -->
-            <div class="card">
-                <figure class="card__figure">
-                    <img src="assets/img/comidas/pizza.jpg" alt="" class="card__img">
-                </figure>
-                <div class="card__body">
-                    <h3 class="card__name">Pizza</h3>
-                    <p class="card__price">4 $</p>
+                <!-- CARD #6 -->
+                <div class="card">
+                    <figure class="card__figure">
+                        <img src="assets/img/postres/chocolate.png" alt="" class="card__img">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="card__name">Chocolate</h3>
+                        <p class="card__price">4 $</p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- CARD #9 -->
-            <div class="card">
-                <figure class="card__figure">
-                    <img src="assets/img/postres/jam-jar.jpg" alt="" class="card__img">
-                </figure>
-                <div class="card__body">
-                    <h3 class="card__name">Jam Jar</h3>
-                    <p class="card__price">6 $</p>
+                <!-- CARD #7 -->
+                <div class="card">
+                    <figure class="card__figure">
+                        <img src="assets/img/bebidas/coffe.jpg" alt="" class="card__img">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="card__name">Coffe</h3>
+                        <p class="card__price">3.25 $</p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- CARD #10 -->
-            <div class="card">
-                <figure class="card__figure">
-                    <img src="assets/img/bebidas/tea.png" alt="" class="card__img">
-                </figure>
-                <div class="card__body">
-                    <h3 class="card__name">Tea</h3>
-                    <p class="card__price">2.40 $</p>
+                <!-- CARD #8 -->
+                <div class="card">
+                    <figure class="card__figure">
+                        <img src="assets/img/comidas/pizza.jpg" alt="" class="card__img">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="card__name">Pizza</h3>
+                        <p class="card__price">4 $</p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- CARD #11 -->
-            <div class="card">
-                <figure class="card__figure">
-                    <img src="assets/img/comidas/tray.jpg" alt="" class="card__img">
-                </figure>
-                <div class="card__body">
-                    <h3 class="card__name">Tray</h3>
-                    <p class="card__price">7 $</p>
+                <!-- CARD #9 -->
+                <div class="card">
+                    <figure class="card__figure">
+                        <img src="assets/img/postres/jam-jar.jpg" alt="" class="card__img">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="card__name">Jam Jar</h3>
+                        <p class="card__price">6 $</p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- CARD #12 -->
-            <div class="card">
-                <figure class="card__figure">
-                    <img src="assets/img/postres/root-chips.jpg" alt="" class="card__img">
-                </figure>
-                <div class="card__body">
-                    <h3 class="card__name">Root Chips</h3>
-                    <p class="card__price">1.25 $</p>
+                <!-- CARD #10 -->
+                <div class="card">
+                    <figure class="card__figure">
+                        <img src="assets/img/bebidas/tea.png" alt="" class="card__img">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="card__name">Tea</h3>
+                        <p class="card__price">2.40 $</p>
+                    </div>
                 </div>
-            </div>
 
-        </div>
-    </section>
+                <!-- CARD #11 -->
+                <div class="card">
+                    <figure class="card__figure">
+                        <img src="assets/img/comidas/tray.jpg" alt="" class="card__img">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="card__name">Tray</h3>
+                        <p class="card__price">7 $</p>
+                    </div>
+                </div>
+
+                <!-- CARD #12 -->
+                <div class="card">
+                    <figure class="card__figure">
+                        <img src="assets/img/postres/root-chips.jpg" alt="" class="card__img">
+                    </figure>
+                    <div class="card__body">
+                        <h3 class="card__name">Root Chips</h3>
+                        <p class="card__price">1.25 $</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- APP JS -->
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
