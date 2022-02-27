@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tacake | E-Commerce</title>
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- FONTAWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+
+        <!-- NAV -->
+        <nav class="nav">
+
+            <!-- NAV LEFT -->
+            <div class="nav__left">
+                <a class="nav__logo" href="#">
+                    <img src="assets/img/logotipo.svg" alt="">
+                </a>
+            </div>
+
+            <!-- NAV RIGHT -->
+            <div class="nav__right">
+                <a href="#" class="nav__item">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="#" class="nav__item">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+
+            <!-- NAV FORM -->
+            <form action="" class="nav__form">
+                <input type="text" class="nav__input" id="navInput" placeholder="Buscar producto" required>
+                <input type="submit" value="">
+            </form>
+
+        </nav>
+
+    </header>
+
+    <main>
+    	
+        <!-- SECTION CONTACT -->
+        <section class="contact">
+
+            <h2 class="contact__h2">¡Contacta con nosotros!</h2>
+
+            <!-- FORM  -->
+            <div class="form">
+
+                <form action="post" class="form__body">
+
+                    <input type="text" class="form__input" required placeholder="Nombre/s"><span class="form__required">*</span></br>
+                    <input type="text" class="form__input" required placeholder="Apellido/s"><span class="form__required">*</span></br>
+                    <input type="email" name="" class="form__input" required placeholder="Mail"><span class="form__required">*</span></br>
+                    <input type="text" class="form__input" required placeholder="Asunto"><span class="form__required">*</span></br>
+                    <textarea name="" cols="30" rows="10" class="form__input" required placeholder="Mensaje"></textarea><span class="form__required">*</span></br>
+                    <input type="submit" value="Enviar" class="form__button"></br>
+
+                </form>
+            </div>
+
+            <!-- CONTACT INFO -->
+            <div class="contact__info">
+
+                <!-- CONTACT ITEM #1 -->
+                <div class="contact__item">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <p class="contact__copy">Teléfono</p>
+                    <p class="contact__number">600656245</p>
+                    <p class="contact__schedule">Lunes a Viernes de 09:00 a 20:00</p>
+                </div>
+
+                <!-- CONTACT ITEM #2 -->
+                <div class="contact__item">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <p class="contact__copy">Dirección</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1779.904885263446!2d2.17090620238061!3d41.38643950841427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2ses!4v1645875857940!5m2!1ses-419!2ses" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <!-- CONTACT ITEM #3 -->
+                <div class="contact__item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="contact__copy">Mail</p>
+                    <p class="contact__mail">info@ecommerce.com</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    
+    <!-- FOOTER -->
+        <footer class="footer">
+
+            <!-- NEWSLETTER -->
+            <div class="news">
+                <div class="news__body">
+                    <h4 class="news__h4">Our Newsletter</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Dignissimos, quia.</p>
+                </div>
+                <form action="" class="news__form">
+                    <input type="text" class="newsletter__input" id="news">
+                    <input type="submit" value="Enviar" class="btn btn--primary">
+                </form>
+            </div>
+
+            <!-- FOOTER SOCIAL-->
+            <div class="footer__social">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+        </footer>
+    
+    <!-- APP JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
