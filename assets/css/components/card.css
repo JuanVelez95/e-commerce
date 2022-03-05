@@ -1,0 +1,45 @@
+/* CARD */
+.card{
+	display: inline-block;
+	width: 300px;
+	margin: .1rem;
+}
+
+/* CARD FIGURE*/
+.card__figure{
+	position: relative;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto 1.5rem auto;
+	height: 200px;
+	overflow: hidden;
+}
+
+.card__btn{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	color: var(--white);
+	background-color: rgba(0, 0, 0, .5);
+	font-family: var(--bold);
+	font-size: var(--h5);
+	transition: .3s;
+	opacity: 0;
+	z-index: 1;
+}
+
+.card__figure:hover .card__btn{
+	opacity: 1;
+}
+
+.card__img{
+	display: inline-block;
+	max-width: 100%;
+	object-fit: cover;
+	transition: .3s ease-out .1s;
+}
+
+.card__figure:hover .card__img{
+	transform: scale(1.1);
+}
