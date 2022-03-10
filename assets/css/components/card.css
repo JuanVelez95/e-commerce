@@ -5,6 +5,10 @@
 	margin: .1rem;
 }
 
+.card__name{
+	margin: 0 0 .5rem 0;
+}
+
 /* CARD FIGURE*/
 .card__figure{
 	position: relative;
