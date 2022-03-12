@@ -4,6 +4,7 @@
 @import './components/card.css';
 @import './components/button.css';
 @import './components/nav.css';
+@import './components/recipes.css';
 
 /* SECTIONS */
 @import './header.css';

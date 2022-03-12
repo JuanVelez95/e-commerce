@@ -1,0 +1,31 @@
+.recipes__item{
+    display: flex;
+    justify-content: space-between;
+    padding: 4.5em 1em;
+}
+.recipes__aside{
+    height: 19.68em;
+    width: 35em;
+}
+.recipes__video{
+    height: 100%;
+    width: 100%;
+}
+.recipes__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    width: 50%;
+}
+.recipes__h2{
+    margin: .5em;
+}
+.recipes__copy{
+    margin: 1em;
+    width: 70%;
+}
+.recipes__body button{
+    margin: 1em;
+    width: 9em;
+}
