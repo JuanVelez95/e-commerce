@@ -3,7 +3,7 @@
     padding: 1em;
     width: 70%;
     margin: auto;
-    display: flex;
+    display: none;
     font-family: sans-serif;
 }
 .modal__figure{
