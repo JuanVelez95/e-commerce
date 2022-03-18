@@ -29,7 +29,17 @@
 }
 
 .carousel__h2{
-    margin-top: 1rem;
+    margin: 1.5rem 0 2em .2em;
+}
+
+.carousel__copy{
+    margin-bottom: 5em;
+}
+
+.carousel__buttons{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .carousel__img{
@@ -49,8 +59,10 @@
 
 .carousel__left{
     left: 1rem;
+    top: -3.5em;
 }
 
 .carousel__right{
     right: 1rem;
+    top: -3.5em;
 }
