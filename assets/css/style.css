@@ -102,3 +102,8 @@ button{
 	padding: 0 2rem;
 	max-width: 1440px;
 }
+
+.text-ghost{
+	color: gray;
+	font-size: .5em;
+}
