@@ -1,0 +1,90 @@
+.contact__h2{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: .5em 0 .5em 0;
+    border: solid lightgray 1px;
+    border-bottom: 0px;
+    background-color:var(--secondary-light);
+}
+
+.form{
+    background: linear-gradient(var(--secondary-light) 20%, white 80%);
+    border: solid lightgray 1px;
+    border-top: 0px;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+.form__body{
+    text-align: center;
+}
+
+.form__input{
+    height: 2em;
+    width: 17em;
+    margin: .5em 0 0 0;
+    text-indent: 1em;
+    font-size: 1.2em;
+}
+
+.form__text{
+    font-family: 'Open Sans', sans-serif;
+    width: 17em;
+    height: 10em;
+    padding-top: .5em;
+    margin: .5em 0 .5em 0;
+    text-indent: 1em;
+    font-size: 1.2em;
+}
+
+.form__required{
+    position: absolute;
+    color: red;
+    margin: .9em 0 0 .5em;
+}
+
+.form__buttons{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__info{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__item{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact__item i{
+    font-size: 2.5em;
+    color: var(--primary);
+}
+
+.contact__copy{
+    margin-top: .5em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.contact__number, .contact__mail{
+    font-size: 1.3em;
+}
+
+.contact__schedule{
+    padding-left: 7em;
+    width: 70%;
+}
+
+.contact__maps{
+    margin: auto;
+}
