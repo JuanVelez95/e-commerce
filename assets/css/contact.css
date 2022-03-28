@@ -1,7 +1,7 @@
 .contact__h2{
     width: 50%;
     text-align: center;
-    margin: auto;
+    margin: 2rem auto 0 auto;
     padding: .5em 0 .5em 0;
     border: solid lightgray 1px;
     border-bottom: 0px;
